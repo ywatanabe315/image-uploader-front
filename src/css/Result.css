@@ -1,0 +1,82 @@
+.result {
+    position: relative;
+    width: 402px;
+    height: 496px;
+    margin: 100px auto;
+    background: #fafafb;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+img.success-icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 182.68px;
+    top: 39.5px;
+}
+
+.result > p {
+    position: absolute;
+    top: 85.53px;
+    left: 101.18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    color: #4f4f4f; 
+}
+
+img.uploaded-image {
+    position: absolute;
+    width: 338px;
+    height: 224.4px;
+    left: 31.18px;
+    top: 137.87px;
+    border-radius: 12px;
+}
+
+.image-url {
+    position: absolute;
+    width: 338px;
+    height: 34px;
+    left: 31.18px;
+    top: 387.6px; 
+    background: #f6f6f6;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+input {
+    position: absolute;
+    left: 11px;
+    top: 11px;
+    width: 240px;
+    height: 12px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: -0.035em;
+    background: #f6f6f6;
+    border: none;
+    outline: none;
+}
+
+.copy-btn {
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    left: 262px;
+    top: 1px;
+    color: #fff;
+    background: #2f80ed;
+    border: none;
+    border-radius: 8px;
+}
