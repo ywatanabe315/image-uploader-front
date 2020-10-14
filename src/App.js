@@ -20,7 +20,7 @@ export default class App extends Component {
     var params = new FormData();
     params.append('post[image]', image);
     this.showUploadingBar();
-    axios.post(process.env.REACT_APP_SERVER_URL + '/posts', params)
+    axios.post(process.env.REACT_APP_SERVER_URL + 'posts', params)
           .then(({data, message}) => {
             if (data){
               console.log(data);
