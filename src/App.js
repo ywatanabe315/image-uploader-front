@@ -13,7 +13,7 @@ export default class App extends Component {
   }
 
   showUploadingBar = () => {
-  this.setState({body: <UploadingBar />});
+    this.setState({body: <UploadingBar />});
   };
 
   uploadImage = image => {
