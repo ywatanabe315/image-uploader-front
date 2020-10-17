@@ -3,6 +3,7 @@
 Drop or select any picture!
 
 url -> https://image-uploader-front-nabeo.herokuapp.com/
+backend repository -> https://github.com/ywatanabe315/image-uploader-backend
 
 ## how to run in your local machine
 
